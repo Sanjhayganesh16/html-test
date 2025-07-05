@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat Page - Rahul</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          backgroundImage: {
+            'chat-bg': "url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/chatbg.png')"
+          },
+          fontFamily: {
+            roboto: ['Roboto', 'sans-serif']
+          },
+          colors: {
+            primary: '#47a3f3',
+            secondary: '#52606d',
+            header: '#323f4b',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="min-h-screen bg-chat-bg bg-cover font-roboto flex flex-col items-center justify-start py-4">
+
+  <!-- Header -->
+  <div class="w-[90%] max-w-md bg-header text-white text-center py-4 text-xl font-medium rounded-t-lg">
+    Rahul
+  </div>
+
+  <!-- Chat Box -->
+  <div class="w-[90%] max-w-md p-4 space-y-3">
+
+    <!-- Message 1 -->
+    <div class="bg-primary text-white p-3 rounded-lg w-fit ml-auto">
+      Hello Rahul, how are you?
+    </div>
+
+    <!-- Message 2 -->
+    <div class="bg-secondary text-white p-3 rounded-lg w-fit mr-auto">
+      Hi Varakumar, I am good. How about you?
+    </div>
+
+    <!-- Message 3 -->
+    <div class="bg-primary text-white p-3 rounded-lg w-fit ml-auto">
+      I'm fine. I published my website recently
+    </div>
+
+    <!-- Message 4 -->
+    <div class="bg-secondary text-white p-3 rounded-lg w-fit mr-auto">
+      Oh great Varakumar! Can you send me the URL?
+    </div>
+
+    <!-- Message 5 -->
+    <div class="bg-primary text-white p-3 rounded-lg w-fit ml-auto">
+      https://varakumar.ccbp.tech
+    </div>
+
+    <!-- Message 6 -->
+    <div class="bg-secondary text-white p-3 rounded-lg w-fit mr-auto">
+      Awesome Varakumar, where did you learn?
+    </div>
+
+    <!-- Message 7 -->
+    <div class="bg-primary text-white p-3 rounded-lg w-fit ml-auto">
+      NxtWave CCBP 4.0 Program
+    </div>
+
+  </div>
+</body>
+</html>
+
